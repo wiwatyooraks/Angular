@@ -1,0 +1,11 @@
+<div>
+    <h2>{{ title }}</h2>
+</div>
+
+<ul>
+    <li *ngFor="let item of items">
+     <number-even *ngIf = " item % 2 === 0" class = "even">{{ item }}</number-even>
+     <number-odd *ngIf = " item % 2 !== 0" class = "odd">{{ item }}</number-odd>
+    </li>
+</ul>
+    
