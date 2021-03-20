@@ -1,0 +1,16 @@
+.con3 {
+    display: flex;
+}
+.I1 {
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    padding-left: 5px;
+}
+.con4 {
+    background-color: blanchedalmond;
+    padding: 5px;
+}
