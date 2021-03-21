@@ -14,4 +14,7 @@ export class TodolistComponent {
  addTask() {
      this.tasks.push(this.task);
  }
+ deleteTask(taskIndex: number) {
+     this.tasks = this.tasks.filter((t, index) => index !== taskIndex);
+ }
 }
