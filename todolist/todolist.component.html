@@ -1,5 +1,0 @@
-<p>My Tasks Today</p>
-<ul class="li1">
-    <li *ngFor="let task of tasks; index as i" >{{ task }}<button (click)="deleteTask(i)">Delete</button></li>
-</ul>
-<b>Tasks : </b><input type="text" [(ngModel)]="task" /><button (click)="addTask()">Add</button>
